@@ -1,0 +1,79 @@
+body {
+  margin: 0;
+  padding: 16px;
+  font-family: "Hiragino Sans", "Yu Gothic", "Meiryo", sans-serif;
+  line-height: 1.7;
+}
+img {
+  max-width: 80%;
+  height: auto;
+}
+h1 {
+font-size: clamp(1.3em, 5vw, 2rem);
+}
+.menu {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 10px 20px;
+  text-align: left;
+}
+
+.align {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+p {
+  max-width: 30em;
+}
+table {
+    border-collapse:  collapse;
+    text-align: center; 
+}
+.menu {
+text-decoration: none;
+}
+.header {
+    text-decoration: none;
+}
+.nav-link,
+.header {
+  display: inline-block;
+  padding: 10px 20px;          /* ボタン内の上下左右の余白 */
+  background-color: white;   /* ボタンの背景色 */
+  color: black;              /* 文字の色 */
+  border: 2px solid black;
+  text-decoration: none;       /* リンクの下線を消す */
+  font-weight: bold;           /* 文字を太字にする */
+  transition: background 0.3s, color o.3s; /* マウスを乗せたときの変化を滑らかに */
+}
+.nav-link {
+  border: 2px solid;
+  font-size: bold;
+}
+.nav-link:hover
+.nav-link:focus-visible
+.header:hover
+.header:focus-visible {
+  background-color: black;
+  color: white;
+}
+/* マウスを乗せた（ホバーした）ときの効果 */
+.button1:hover {
+  background-color: black;
+  color: white;
+}
+.header {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: white;
+  color: black;
+  text-decoration: none;
+  transition: background 0.3s;
+}
+.header:hover {
+  background-color: black;
+  color: white;
+}

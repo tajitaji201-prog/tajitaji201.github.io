@@ -1,0 +1,4 @@
+table:not(.table1) th {
+    width:  100px;              /* 幅指定 */
+    height: 33px;               /* 高さ指定 */
+}

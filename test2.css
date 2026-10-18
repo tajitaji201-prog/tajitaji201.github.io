@@ -1,0 +1,32 @@
+
+.goal {    
+  width: 100%;
+  max-width: 500px;
+
+  padding: 1em;
+  background-color: white;
+  border: 2px solid #000000; 
+  text-align: center;
+}
+.goal p {
+  margin: 3em 0;
+}
+table th {
+    width:  100px;
+    height: 33px;
+}
+th,td {
+    border: solid 1px;
+}
+.table2:not(thead) th {
+    font-family: "メイリオ", sans-serif;
+}
+.member {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+caption {
+  font-weight: bold;
+  margin-bottom: 5px;
+}
